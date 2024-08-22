@@ -18,5 +18,19 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
     alternativas: ["Alternativa 1", "Alternativa 2"],
     },
     ];
+    const perguntas = [
+    {
+    enunciado: "Insira o enunciado da Pergunta 1",
+    alternativas: ["Alternativa 1”, “Alternativa 2"],
+    },
+    {
+    enunciado: "Insira o enunciado da Pergunta 2",
+    alternativas: ["Alternativa 1", "Alternativa 2"],
+    },
+    {
+    enunciado: "Insira o enunciado da Pergunta 3",
+    alternativas: ["Alternativa 1", "Alternativa 2"],
+    }
+    ];
 
     
