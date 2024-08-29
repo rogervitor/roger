@@ -92,7 +92,8 @@ hiper-realistas. Qual o seu primeiro pensamento?",
 
 alternativas: [
 "Isso é assustador!",
-"Isso é maravilhoso!"
+"Isso é maravilhoso!"]
+        }
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -227,7 +228,7 @@ color: var(--cor-texto);
                                                             }button:hover{
                                                                 background-color: var(--cor-destaque);
                                                                 color: var(--cor-principal);
-                                                                }button {
+                                                                }button: {
                                                                     background-color: var(--cor-secundaria);
                                                                     color: var(--cor-texto);
                                                                     border: none;
@@ -261,6 +262,8 @@ color: var(--cor-texto);
                                                                             responder a todas as dúvidas que uma pessoa pode ter.
                                                                             Além disso, o chat também gera imagens e áudios
                                                                             hiper-realistas. Qual o seu primeiro pensamento?", alternativas: [
+                                                                            
+                                                                            }
                                                                             {
                                                                             texto: "Isso é assustador!",
                                                                             
