@@ -119,45 +119,7 @@ function mostraPergunta() {
                         
                         botaoAlternativas.textContent = alternativa;
                         caixaAlternativas.appendChild(botaoAlternativas);
-                        :root{
-                            --cor-fundo: #01080E;
-                            --cor-principal: #0B0D20;
-                            --cor-secundaria: #212333;
-                            --cor-destaque: #2BDEFD;
-                            --cor-texto: #D7F9FF;
-                            }
-                            body {
-
-                                background-color: var(--cor-fundo);
-                            background-color: var(--cor-fundo);
-color: var(--cor-texto);
-
-}body {
-
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    y
-    }body {
-
-        background-color: var(--cor-fundo);
-        color: var(--cor-texto);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        
-        }
-               .caixa-principal {
-                    background-color: var(--cor-fundo);
-                    width: 90%;
-                    max-width: 600px;
-                    text-align: center;
-                    padding: 20px; 
-                    h1 {
-                        color: var(--cor-destaque);
+                        
                         const perguntas = [
                             {
                             enunciado: "Insira o enunciado da Pergunta 1",
